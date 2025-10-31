@@ -2,11 +2,11 @@
 
 **Author:** Duran Özçelik
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements Support Vector Machine Regression (SVR) on the California Housing dataset with hyperparameter optimization using **GridSearchCV** and **RandomizedSearchCV**. The primary focus is on comparing different hyperparameter search strategies and evaluating their effectiveness in finding optimal model parameters.
 
-## 🎯 Objectives
+## Objectives
 
 * Train and evaluate SVR models with different kernel types (linear and RBF)
 * Implement GridSearchCV for systematic hyperparameter search
@@ -15,7 +15,7 @@ This project implements Support Vector Machine Regression (SVR) on the Californi
 * Find optimal hyperparameters for housing price prediction
 * Analyze RMSE scores and identify the best model configuration
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python 3.12:** Core programming language
 * **NumPy:** Numerical computations and array operations
@@ -25,7 +25,7 @@ This project implements Support Vector Machine Regression (SVR) on the Californi
 * **SciPy:** Statistical distributions for RandomizedSearchCV
 * **Jupyter Notebook:** Interactive development environment
 
-## 📊 Dataset: California Housing Dataset
+## Dataset: California Housing Dataset
 
 The dataset contains information about housing districts in California from the 1990 census.
 
@@ -48,7 +48,7 @@ The dataset contains information about housing districts in California from the 
 * **median_income:** Median income of households (in tens of thousands)
 * **ocean_proximity:** Categorical variable (proximity to ocean)
 
-## 🔍 Methodology
+## Methodology
 
 ### 1. Data Preparation
 
@@ -84,7 +84,7 @@ The dataset contains information about housing districts in California from the 
 | **Total Models Tested**     | 50                        |
 | **Results**                 | Best RMSE = $70,627.34    |
 
-## 📈 Results Summary
+## Results Summary
 
 | Metric             | GridSearchCV | RandomizedSearchCV | Difference           |
 | ------------------ | ------------ | ------------------ | -------------------- |
@@ -100,7 +100,7 @@ The dataset contains information about housing districts in California from the 
 * GridSearchCV achieved a slightly better RMSE but required testing more combinations (105 vs 50).
 * The resulting RMSE of ≈ **$70,600** indicates a reasonable accuracy for this type of housing data.
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Install Dependencies
 
@@ -125,14 +125,14 @@ Run all cells in the `BIM453_HW1_Solution.ipynb` notebook.
 * Best RMSE and parameters for both methods
 * Comparison table of results
 
-## 🔑 Key Insights
+## Key Insights
 
 * **Model Performance:** The RMSE of ≈ $70,600 is a good starting point for housing price prediction.
 * **GridSearchCV:** Best suited for final fine-tuning when the search space is small or well-defined.
 * **RandomizedSearchCV:** Faster and more efficient for exploring large search spaces initially.
 * **Recommendation:** Use RandomizedSearchCV for initial broad exploration, then GridSearchCV for precise optimization in the most promising regions.
 
-## 📚 References
+## References
 
 * Géron, A. (2022). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (3rd ed.). O'Reilly Media.
 * [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
