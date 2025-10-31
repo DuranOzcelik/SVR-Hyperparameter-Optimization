@@ -1,6 +1,6 @@
 # SVR Hyperparameter Optimization
 
-**Author:** Duran Özçelik
+
 
 ## Project Overview
 
@@ -138,3 +138,6 @@ Run all cells in the `BIM453_HW1_Solution.ipynb` notebook.
 * [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
 * California Housing Dataset: StatLib Repository (via Ageron’s GitHub)
 * Bergstra, J., & Bengio, Y. (2012). *Random search for hyper-parameter optimization.* Journal of Machine Learning Research.
+
+
+### Created by: Duran Özçelik
